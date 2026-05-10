@@ -1,17 +1,59 @@
 {
   "news": [
     {
+      "id": 8,
+      "title": "Modo Escuro Inteligente 🌙",
+      "content": "O portal agora possui suporte completo ao modo escuro, trazendo uma experiência mais confortável durante o uso noturno, além de um visual moderno e elegante.",
+      "date": "10 Maio 2026",
+      "type": "feature"
+    },
+    {
+      "id": 7,
+      "title": "Central de Novidades 🔔",
+      "content": "Criamos um painel exclusivo de atualizações para informar melhorias, novos recursos e mudanças importantes diretamente dentro do aplicativo.",
+      "date": "10 Maio 2026",
+      "type": "feature"
+    },
+    {
+      "id": 6,
+      "title": "Guia de Ajuda Integrado ❓",
+      "content": "Adicionamos uma área de ajuda com dicas rápidas e tutoriais para facilitar a navegação e mostrar todos os recursos disponíveis no portal.",
+      "date": "10 Maio 2026",
+      "type": "feature"
+    },
+    {
+      "id": 5,
+      "title": "Exportação em PDF 🖨️",
+      "content": "Implementamos a função de exportar horários em PDF, permitindo salvar ou imprimir a grade semanal de forma organizada e prática.",
+      "date": "09 Maio 2026",
+      "type": "feature"
+    },
+    {
+      "id": 4,
+      "title": "Novos Layouts para Mobiles 📱 e desktops 💻",
+      "content": "O portal recebeu uma interface totalmente otimizada para celulares e desktop, com visual mais moderno, animações suaves e melhor experiência de navegação.",
+      "date": "09 Maio 2026",
+      "type": "feature"
+    },
+    {
+      "id": 3,
+      "title": "Animações e Efeitos Visuais ✨",
+      "content": "Novas animações foram adicionadas ao sistema para deixar a experiência mais fluida, dinâmica e moderna, trazendo um visual mais profissional ao portal.",
+      "date": "08 Maio 2026",
+      "type": "feature"
+    },
+    {
       "id": 2,
       "title": "Design totalmente renovado! ✨",
       "content": "Atualizamos todo o visual do aplicativo para ser mais moderno, rápido e bonito. Aproveite as novas animações e o modo escuro aprimorado.",
-      "date": "10 Mai 2026",
+      "date": "08 Maio 2026",
       "type": "feature"
     },
     {
       "id": 1,
       "title": "Aulas em Tempo Real ⏰",
       "content": "Agora o sistema detecta automaticamente qual aula está acontecendo no momento e a destaca na sua tela. Nunca mais se perca no horário!",
-      "date": "08 Mai 2026",
+      "date": "06 Maio 2026",
       "type": "announcement"
     }
   ],
