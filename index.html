@@ -326,17 +326,17 @@
             // 1. Carrega os Dados
             useEffect(() => {
                 // --- COMO USAR O ARQUIVO EXTERNO (EXEMPLO) ---
-                /* fetch('dados.json')
+                 fetch('dados.json')
                     .then(response => response.json())
                     .then(parsed => {
                         setData(parsed);
                         processNews(parsed.news || []);
                     })
                     .catch(e => console.error("Erro ao carregar JSON externo:", e));
-                */
+                
                 
                 // --- Lógica Atual (Lendo da tag <script> no HTML) ---
-                try {
+                /*try {
                     const jsonElement = document.getElementById('app-data');
                     if(jsonElement) {
                         const parsed = JSON.parse(jsonElement.textContent);
@@ -346,6 +346,7 @@
                 } catch (e) {
                     console.error("Erro ao ler JSON embutido:", e);
                 }
+                    */
             }, []);
 
             // Função separada para processar novidades
