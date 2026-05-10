@@ -1,0 +1,846 @@
+{
+  "news": [
+   {
+     "id": 2,
+     "title": "Design totalmente renovado! ✨",
+     "content": "Atualizamos todo o visual do aplicativo para ser mais moderno, rápido e bonito. Aproveite as novas animações e o modo escuro aprimorado.",
+     "date": "10 Mai 2026",
+     "type": "feature"
+    },
+    {
+     "id": 1,
+     "title": "Aulas em Tempo Real ⏰",
+     "content": "Agora o sistema detecta automaticamente qual aula está acontecendo no momento e a destaca na sua tela. Nunca mais se perca no horário!",
+     "date": "08 Mai 2026",
+     "type": "announcement"
+    }
+  ],
+  "schools": [
+    {
+      "id": "danisio",
+      "name": "EEFM Danísio Dalton da Rocha Corrêa"
+    }
+  ],
+  "shifts": [
+    {
+      "id": "manha",
+      "label": "Manhã"
+    },
+    {
+      "id": "tarde",
+      "label": "Tarde"
+    }
+  ],
+  "classesByShift": {
+    "manha": [
+      {
+        "id": "1A",
+        "label": "1ª Série A"
+      },
+      {
+        "id": "1B",
+        "label": "1ª Série B"
+      },
+      {
+        "id": "1C",
+        "label": "1ª Série C"
+      },
+      {
+        "id": "2A",
+        "label": "2ª Série A"
+      },
+      {
+        "id": "2B",
+        "label": "2ª Série B"
+      },
+      {
+        "id": "3A",
+        "label": "3ª Série A"
+      },
+      {
+        "id": "3B",
+        "label": "3ª Série B"
+      },
+      {
+        "id": "3C",
+        "label": "3ª Série C"
+      },
+      {
+        "id": "3D",
+        "label": "3ª Série D"
+      }
+    ],
+    "tarde": [
+      {
+        "id": "1D",
+        "label": "1ª Série D"
+      },
+      {
+        "id": "1E",
+        "label": "1ª Série E"
+      },
+      {
+        "id": "1F",
+        "label": "1ª Série F"
+      },
+      {
+        "id": "2D",
+        "label": "2ª Série D"
+      },
+      {
+        "id": "2E",
+        "label": "2ª Série E"
+      },
+      {
+        "id": "2F",
+        "label": "2ª Série F"
+      },
+      {
+        "id": "3E",
+        "label": "3ª Série E"
+      },
+      {
+        "id": "3F",
+        "label": "3ª Série F"
+      }
+    ]
+  },
+  "timeSlots": {
+    "manha": {
+      "T1": "07:00 - 07:50",
+      "T2": "07:50 - 08:40",
+      "T3": "08:40 - 09:25",
+      "INT": "09:25 - 09:40",
+      "T4": "09:45 - 10:25",
+      "T5": "10:25 - 11:10"
+    },
+    "tarde": {
+      "T1": "13:00 - 13:50",
+      "T2": "13:50 - 14:40",
+      "T3": "14:40 - 15:25",
+      "INT": "15:25 - 15:40",
+      "T4": "15:45 - 16:25",
+      "T5": "16:25 - 17:10"
+    }
+  },
+  "schedule": {
+    "manha": {
+      "1A": {
+        "segunda": [
+          { "tc": "T1", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "T2", "sub": "História", "tea": "Iracelma" },
+          { "tc": "T3", "sub": "Sociologia", "tea": "Alyson" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Espanhol", "tea": "Linda" },
+          { "tc": "T5", "sub": "Eletiva", "tea": "Leones/Aloísio" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T2", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T3", "sub": "Form. Cid.", "tea": "Anglaine" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "T5", "sub": "Geografia", "tea": "Lucas" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "T2", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "T3", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Arte", "tea": "Rafaella" },
+          { "tc": "T5", "sub": "Redação", "tea": "Leones" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T3", "sub": "Ed. Física", "tea": "Florêncio" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "T5", "sub": "Língua Port.", "tea": "Huthysonn" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T3", "sub": "Biologia", "tea": "Hélia" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Biologia", "tea": "Hélia" },
+          { "tc": "T5", "sub": "Eletiva", "tea": "Airan/Rodrigo" }
+        ]
+      },
+      "1B": {
+        "segunda": [
+          { "tc": "T1", "sub": "História", "tea": "Iracelma" },
+          { "tc": "T2", "sub": "História", "tea": "Iracelma" },
+          { "tc": "T3", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Eletiva", "tea": "Leones/Aloísio" },
+          { "tc": "T5", "sub": "Espanhol", "tea": "Linda" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "T2", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "T3", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T5", "sub": "Form. Cid.", "tea": "Anglaine" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "T2", "sub": "Redação", "tea": "Leones" },
+          { "tc": "T3", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "T5", "sub": "Arte", "tea": "Rafaella" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Ed. Física", "tea": "Florêncio" },
+          { "tc": "T2", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "T3", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T5", "sub": "Matemática", "tea": "Gustavo" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Biologia", "tea": "Hélia" },
+          { "tc": "T2", "sub": "Biologia", "tea": "Hélia" },
+          { "tc": "T3", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T5", "sub": "Sociologia", "tea": "Alyson" }
+        ]
+      },
+      "1C": {
+        "segunda": [
+          { "tc": "T1", "sub": "Sociologia", "tea": "Alyson" },
+          { "tc": "T2", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "T3", "sub": "História", "tea": "Iracelma" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Eletiva", "tea": "Airan/Rodrigo" },
+          { "tc": "T5", "sub": "---", "tea": "---" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Form. Cid.", "tea": "Anglaine" },
+          { "tc": "T2", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "T3", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T5", "sub": "Física", "tea": "Anglaine" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "Redação", "tea": "Leones" },
+          { "tc": "T2", "sub": "Arte", "tea": "Rafaella" },
+          { "tc": "T3", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "História", "tea": "Iracelma" },
+          { "tc": "T5", "sub": "Espanhol", "tea": "Linda" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "T2", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "T3", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T5", "sub": "Ed. Física", "tea": "Florêncio" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T3", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "T5", "sub": "Biologia", "tea": "Hélia" }
+        ]
+      },
+      "2A": {
+        "segunda": [
+          { "tc": "T1", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T2", "sub": "Sociologia", "tea": "Alyson" },
+          { "tc": "T3", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "T5", "sub": "Eletiva", "tea": "Leones/Aloísio" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "História", "tea": "Iracelma" },
+          { "tc": "T2", "sub": "História", "tea": "Iracelma" },
+          { "tc": "T3", "sub": "Redação", "tea": "Leones" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Biologia", "tea": "Hélia" },
+          { "tc": "T5", "sub": "Biologia", "tea": "Hélia" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "Arte", "tea": "Rafaella" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T3", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "T5", "sub": "Hum P/Enem", "tea": "Iracelma" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Nat P/Enem", "tea": "Rodrigo" },
+          { "tc": "T2", "sub": "Ed. Física", "tea": "Florêncio" },
+          { "tc": "T3", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T5", "sub": "Matemática", "tea": "Carlos Alberto" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "T2", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "T3", "sub": "Lgg P/Enem", "tea": "Huthysonn" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "T5", "sub": "Eletiva", "tea": "Airan/Rodrigo" }
+        ]
+      },
+      "2B": {
+        "segunda": [
+          { "tc": "T1", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "T2", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "T3", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Eletiva", "tea": "Leones/Aloísio" },
+          { "tc": "T5", "sub": "Sociologia", "tea": "Alyson" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Biologia", "tea": "Hélia" },
+          { "tc": "T2", "sub": "Biologia", "tea": "Hélia" },
+          { "tc": "T3", "sub": "História", "tea": "Iracelma" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "História", "tea": "Iracelma" },
+          { "tc": "T5", "sub": "Redação", "tea": "Leones" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T3", "sub": "Arte", "tea": "Rafaella" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Hum P/Enem", "tea": "Iracelma" },
+          { "tc": "T5", "sub": "Inglês", "tea": "Carlos Henrique" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T3", "sub": "Nat P/Enem", "tea": "Rodrigo" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Ed. Física", "tea": "Florêncio" },
+          { "tc": "T5", "sub": "Língua Port.", "tea": "Huthysonn" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Lgg P/Enem", "tea": "Huthysonn" },
+          { "tc": "T2", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "T3", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Língua Port.", "tea": "Huthysonn" },
+          { "tc": "T5", "sub": "Eletiva", "tea": "Airan/Rodrigo" }
+        ]
+      },
+      "3A": {
+        "segunda": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T3", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Sociologia", "tea": "Alyson" },
+          { "tc": "T5", "sub": "Filosofia", "tea": "Helton" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Língua Port.", "tea": "Ana Glauciane" },
+          { "tc": "T2", "sub": "Redação", "tea": "Ana Glauciane" },
+          { "tc": "T3", "sub": "Língua Port.", "tea": "Ana Glauciane" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Nat P/Enem", "tea": "Anglaine" },
+          { "tc": "T5", "sub": "Inglês", "tea": "Carlos Henrique" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "Hum P/Enem", "tea": "Iracelma" },
+          { "tc": "T2", "sub": "História", "tea": "Iracelma" },
+          { "tc": "T3", "sub": "História", "tea": "Iracelma" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T5", "sub": "Matemática", "tea": "Carlos Alberto" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Língua Port.", "tea": "Ana Glauciane" },
+          { "tc": "T2", "sub": "Lgg P/Enem", "tea": "Ana Glauciane" },
+          { "tc": "T3", "sub": "Ed. Física", "tea": "Florêncio" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "T5", "sub": "Mat P/Enem", "tea": "Carlos Alberto" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Biologia", "tea": "Hélia" },
+          { "tc": "T2", "sub": "Biologia", "tea": "Hélia" },
+          { "tc": "T3", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T5", "sub": "Matemática", "tea": "Carlos Alberto" }
+        ]
+      },
+      "3B": {
+        "segunda": [
+          { "tc": "T1", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T3", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "T5", "sub": "Sociologia", "tea": "Alyson" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "T2", "sub": "Língua Port.", "tea": "Ana Glauciane" },
+          { "tc": "T3", "sub": "Redação", "tea": "Ana Glauciane" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Língua Port.", "tea": "Ana Glauciane" },
+          { "tc": "T5", "sub": "Nat P/Enem", "tea": "Anglaine" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T3", "sub": "Hum P/Enem", "tea": "Iracelma" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "História", "tea": "Iracelma" },
+          { "tc": "T5", "sub": "História", "tea": "Iracelma" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Ed. Física", "tea": "Florêncio" },
+          { "tc": "T2", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "T3", "sub": "Língua Port.", "tea": "Ana Glauciane" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Mat P/Enem", "tea": "Carlos Alberto" },
+          { "tc": "T5", "sub": "Lgg P/Enem", "tea": "Ana Glauciane" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T3", "sub": "Biologia", "tea": "Hélia" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Biologia", "tea": "Hélia" },
+          { "tc": "T5", "sub": "Física", "tea": "Anglaine" }
+        ]
+      },
+      "3C": {
+        "segunda": [
+          { "tc": "T1", "sub": "Língua Port.", "tea": "Verônica" },
+          { "tc": "T2", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "T3", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "T5", "sub": "---", "tea": "---" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Nat P/Enem", "tea": "Anglaine" },
+          { "tc": "T2", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "T3", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Língua Port.", "tea": "Verônica" },
+          { "tc": "T5", "sub": "Língua Port.", "tea": "Verônica" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "História", "tea": "Marcelo" },
+          { "tc": "T2", "sub": "Hum P/Enem", "tea": "Marcelo" },
+          { "tc": "T3", "sub": "História", "tea": "Marcelo" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T5", "sub": "Matemática", "tea": "Carlos Alberto" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Lgg P/Enem", "tea": "Ana Glauciane" },
+          { "tc": "T2", "sub": "Biologia", "tea": "Breno" },
+          { "tc": "T3", "sub": "Biologia", "tea": "Breno" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Nat P/Enem", "tea": "Breno" },
+          { "tc": "T5", "sub": "Ed. Física", "tea": "Florêncio" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Sociologia", "tea": "Alyson" },
+          { "tc": "T2", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T3", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T5", "sub": "Matemática", "tea": "Carlos Alberto" }
+        ]
+      },
+      "3D": {
+        "segunda": [
+          { "tc": "T1", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "T2", "sub": "Língua Port.", "tea": "Verônica" },
+          { "tc": "T3", "sub": "Língua Port.", "tea": "Verônica" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "T5", "sub": "Sociologia", "tea": "Alyson" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "T2", "sub": "Nat P/Enem", "tea": "Anglaine" },
+          { "tc": "T3", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Redação", "tea": "Ana Glauciane" },
+          { "tc": "T5", "sub": "Língua Port.", "tea": "Verônica" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "História", "tea": "Marcelo" },
+          { "tc": "T2", "sub": "História", "tea": "Marcelo" },
+          { "tc": "T3", "sub": "Hum P/Enem", "tea": "Marcelo" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T5", "sub": "Matemática", "tea": "Carlos Alberto" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Biologia", "tea": "Breno" },
+          { "tc": "T2", "sub": "Biologia", "tea": "Breno" },
+          { "tc": "T3", "sub": "Lgg P/Enem", "tea": "Ana Glauciane" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Ed. Física", "tea": "Florêncio" },
+          { "tc": "T5", "sub": "Nat P/Enem", "tea": "Breno" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T2", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T3", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T5", "sub": "Matemática", "tea": "Carlos Alberto" }
+        ]
+      }
+    },
+    "tarde": {
+      "1D": {
+        "segunda": [
+          { "tc": "T1", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "T2", "sub": "Ed. Física", "tea": "Florêncio" },
+          { "tc": "T3", "sub": "Espanhol", "tea": "Linda" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Sociologia", "tea": "Alyson" },
+          { "tc": "T5", "sub": "Eletiva", "tea": "Leones/Santiago" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T2", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T3", "sub": "Biologia", "tea": "Edney" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "T5", "sub": "Química", "tea": "Rodrigo" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "Líng. Port.", "tea": "Huthysonn" },
+          { "tc": "T2", "sub": "Líng. Port.", "tea": "Huthysonn" },
+          { "tc": "T3", "sub": "Redação", "tea": "Ana Glauciane" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Arte", "tea": "Rafaella" },
+          { "tc": "T5", "sub": "História", "tea": "João Lucas" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T3", "sub": "Form. Cid.", "tea": "Anglaine" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Líng. Port.", "tea": "Huthysonn" },
+          { "tc": "T5", "sub": "Líng. Port.", "tea": "Huthysonn" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T2", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "T3", "sub": "Biologia", "tea": "Edney" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Airan/Anglaine" },
+          { "tc": "T5", "sub": "---", "tea": "---" }
+        ]
+      },
+      "1E": {
+        "segunda": [
+          { "tc": "T1", "sub": "Espanhol", "tea": "Linda" },
+          { "tc": "T2", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "T3", "sub": "Ed. Física", "tea": "Florêncio" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Eletiva", "tea": "Leones/Santiago" },
+          { "tc": "T5", "sub": "Sociologia", "tea": "Alyson" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "T2", "sub": "Biologia", "tea": "Edney" },
+          { "tc": "T3", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T5", "sub": "Física", "tea": "Anglaine" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "Arte", "tea": "Rafaella" },
+          { "tc": "T2", "sub": "História", "tea": "João Lucas" },
+          { "tc": "T3", "sub": "Líng. Port.", "tea": "Huthysonn" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Líng. Port.", "tea": "Huthysonn" },
+          { "tc": "T5", "sub": "Redação", "tea": "Ana Glauciane" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Líng. Port.", "tea": "Huthysonn" },
+          { "tc": "T2", "sub": "Líng. Port.", "tea": "Huthysonn" },
+          { "tc": "T3", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T5", "sub": "Form. Cid.", "tea": "Anglaine" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Biologia", "tea": "Edney" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T3", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "---", "tea": "---" },
+          { "tc": "T5", "sub": "Matemática", "tea": "Airan/Anglaine" }
+        ]
+      },
+      "1F": {
+        "segunda": [
+          { "tc": "T1", "sub": "Ed. Física", "tea": "Florêncio" },
+          { "tc": "T2", "sub": "Sociologia", "tea": "Alyson" },
+          { "tc": "T3", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Eletiva", "tea": "Airan/S. Lucas" },
+          { "tc": "T5", "sub": "Espanhol", "tea": "Linda" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "T2", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T3", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "T5", "sub": "Biologia", "tea": "Edney" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "História", "tea": "João Lucas" },
+          { "tc": "T2", "sub": "Redação", "tea": "Ana Glauciane" },
+          { "tc": "T3", "sub": "Arte", "tea": "Rafaella" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Líng. Port.", "tea": "Huthysonn" },
+          { "tc": "T5", "sub": "Líng. Port.", "tea": "Huthysonn" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Form. Cid.", "tea": "Anglaine" },
+          { "tc": "T2", "sub": "Líng. Port.", "tea": "Huthysonn" },
+          { "tc": "T3", "sub": "Líng. Port.", "tea": "Huthysonn" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "T5", "sub": "Matemática", "tea": "Gustavo" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "T2", "sub": "Biologia", "tea": "Edney" },
+          { "tc": "T3", "sub": "Matemática", "tea": "Gustavo" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Airan/Anglaine" },
+          { "tc": "T5", "sub": "---", "tea": "---" }
+        ]
+      },
+      "2D": {
+        "segunda": [
+          { "tc": "T1", "sub": "Sociologia", "tea": "Alyson" },
+          { "tc": "T2", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "T3", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Eletiva", "tea": "Leones/Santiago" },
+          { "tc": "T5", "sub": "História", "tea": "João Lucas" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Biologia", "tea": "Edney" },
+          { "tc": "T2", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "T3", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T5", "sub": "Física", "tea": "Anglaine" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "História", "tea": "João Lucas" },
+          { "tc": "T2", "sub": "Líng. Port.", "tea": "Verônica" },
+          { "tc": "T3", "sub": "Líng. Port.", "tea": "Verônica" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Redação", "tea": "Ana Glauciane" },
+          { "tc": "T5", "sub": "Hum P/Enem", "tea": "João Lucas" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Nat P/Enem", "tea": "Rodrigo" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T3", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Líng. Port.", "tea": "Verônica" },
+          { "tc": "T5", "sub": "Ed. Física", "tea": "Florêncio" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T3", "sub": "Lgg P/Enem", "tea": "Verônica" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "T5", "sub": "Arte", "tea": "Rafaella" }
+        ]
+      },
+      "2E": {
+        "segunda": [
+          { "tc": "T1", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "T2", "sub": "História", "tea": "João Lucas" },
+          { "tc": "T3", "sub": "Sociologia", "tea": "Alyson" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "T5", "sub": "Eletiva", "tea": "Leones/Santiago" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T2", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T3", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Biologia", "tea": "Edney" },
+          { "tc": "T5", "sub": "Química", "tea": "Rodrigo" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "Líng. Port.", "tea": "Verônica" },
+          { "tc": "T2", "sub": "Redação", "tea": "Ana Glauciane" },
+          { "tc": "T3", "sub": "Hum P/Enem", "tea": "João Lucas" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "História", "tea": "João Lucas" },
+          { "tc": "T5", "sub": "Líng. Port.", "tea": "Verônica" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T3", "sub": "Ed. Física", "tea": "Florêncio" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Nat P/Enem", "tea": "Rodrigo" },
+          { "tc": "T5", "sub": "Matemática", "tea": "Carlos Alberto" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Arte", "tea": "Rafaella" },
+          { "tc": "T2", "sub": "Lgg P/Enem", "tea": "Verônica" },
+          { "tc": "T3", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T5", "sub": "Matemática", "tea": "Carlos Alberto" }
+        ]
+      },
+      "2F": {
+        "segunda": [
+          { "tc": "T1", "sub": "História", "tea": "João Lucas" },
+          { "tc": "T2", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "T3", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Sociologia", "tea": "Alyson" },
+          { "tc": "T5", "sub": "Eletiva", "tea": "Airan/S. Lucas" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T2", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T3", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "T5", "sub": "Biologia", "tea": "Edney" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "Hum P/Enem", "tea": "João Lucas" },
+          { "tc": "T2", "sub": "História", "tea": "João Lucas" },
+          { "tc": "T3", "sub": "Redação", "tea": "Ana Glauciane" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Líng. Port.", "tea": "Verônica" },
+          { "tc": "T5", "sub": "Líng. Port.", "tea": "Verônica" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Ed. Física", "tea": "Florêncio" },
+          { "tc": "T2", "sub": "Nat P/Enem", "tea": "Rodrigo" },
+          { "tc": "T3", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T5", "sub": "Líng. Port.", "tea": "Verônica" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T2", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "T3", "sub": "Arte", "tea": "Rafaella" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Lgg P/Enem", "tea": "Verônica" },
+          { "tc": "T5", "sub": "Matemática", "tea": "Carlos Alberto" }
+        ]
+      },
+      "3E": {
+        "segunda": [
+          { "tc": "T1", "sub": "História", "tea": "Iracelma" },
+          { "tc": "T2", "sub": "Sociologia", "tea": "Alyson" },
+          { "tc": "T3", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T5", "sub": "Filosofia", "tea": "Helton" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "T2", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "T3", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Biologia", "tea": "Edney" },
+          { "tc": "T5", "sub": "Biologia", "tea": "Edney" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "Líng. Port.", "tea": "Verônica" },
+          { "tc": "T2", "sub": "História", "tea": "Iracelma" },
+          { "tc": "T3", "sub": "Líng. Port.", "tea": "Verônica" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Redação", "tea": "Ana Glauciane" },
+          { "tc": "T5", "sub": "Hum P/Enem", "tea": "Iracelma" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T2", "sub": "Lgg P/Enem", "tea": "Ana Glauciane" },
+          { "tc": "T3", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T5", "sub": "Nat P/Enem", "tea": "Anglaine" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T3", "sub": "Ed. Física", "tea": "Florêncio" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Mat P/Enem", "tea": "Carlos Alberto" },
+          { "tc": "T5", "sub": "---", "tea": "---" }
+        ]
+      },
+      "3F": {
+        "segunda": [
+          { "tc": "T1", "sub": "Sociologia", "tea": "Alyson" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T3", "sub": "História", "tea": "Iracelma" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Filosofia", "tea": "Helton" },
+          { "tc": "T5", "sub": "Matemática", "tea": "Carlos Alberto" }
+        ],
+        "terca": [
+          { "tc": "T1", "sub": "Geografia", "tea": "Lucas" },
+          { "tc": "T2", "sub": "Inglês", "tea": "Carlos Henrique" },
+          { "tc": "T3", "sub": "Química", "tea": "Rodrigo" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Biologia", "tea": "Edney" },
+          { "tc": "T5", "sub": "Biologia", "tea": "Edney" }
+        ],
+        "quarta": [
+          { "tc": "T1", "sub": "Redação", "tea": "Ana Glauciane" },
+          { "tc": "T2", "sub": "Líng. Port.", "tea": "Verônica" },
+          { "tc": "T3", "sub": "Hum P/Enem", "tea": "Iracelma" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "História", "tea": "Iracelma" },
+          { "tc": "T5", "sub": "Líng. Port.", "tea": "Verônica" }
+        ],
+        "quinta": [
+          { "tc": "T1", "sub": "Lgg P/Enem", "tea": "Ana Glauciane" },
+          { "tc": "T2", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T3", "sub": "Nat P/Enem", "tea": "Anglaine" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "Física", "tea": "Anglaine" },
+          { "tc": "T5", "sub": "Física", "tea": "Anglaine" }
+        ],
+        "sexta": [
+          { "tc": "T1", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "T2", "sub": "Ed. Física", "tea": "Florêncio" },
+          { "tc": "T3", "sub": "Matemática", "tea": "Carlos Alberto" },
+          { "tc": "INT", "sub": "Intervalo", "tea": "" },
+          { "tc": "T4", "sub": "---", "tea": "---" },
+          { "tc": "T5", "sub": "Mat P/Enem", "tea": "Carlos Alberto" }
+        ]
+      }
+    }
+  }
+}
